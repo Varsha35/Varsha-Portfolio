@@ -3,7 +3,31 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
   <style>
- */body {
+#grad1 {
+  height: 100px;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, red, yellow); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+  height: 100px;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(90deg, red, yellow); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+  height: 100px;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, red, yellow); /* Standard syntax (must be last) */
+}
+
+#grad4 {
+  height: 100px;
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-90deg, red, yellow); /* Standard syntax (must be last) */
+}
+
+body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
