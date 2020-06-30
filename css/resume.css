@@ -2,6 +2,10 @@
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
 /* Style the tab */
 .tab {
   float: left;
@@ -44,16 +48,7 @@
   height: 300px;
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
+</style>
 
   <style>
 #grad1 {
